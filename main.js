@@ -1,6 +1,4 @@
-console.log('bloop');
-
-function f() {
+function play() {
     console.log('pressed');
     var player = new Tone.Player('./cow.mp3');
     var pitchShift = new Tone.PitchShift({
